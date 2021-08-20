@@ -1,0 +1,21 @@
+{
+  "name": "cast/lyra2",
+  "description" : "Lyra2. Pure PHP based on https://github.com/bitgoin/lyra2rev2/blob/master/lyra2.go",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^7.3",
+    "cast/uint64": "^0.1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cast\\Crypto\\Lyra2\\": "src"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  }
+}

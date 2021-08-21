@@ -10,6 +10,9 @@ composer require cast/lyra2
 #### Usage:
 ```php
 <?php
+
+require_once __DIR__ . '/vendor/autoload.php';
+
 use Cast\Crypto\uint64\Uint64 as uint64;
 use function Cast\Crypto\Lyra2\lyra2;
 use function Cast\Crypto\Lyra2\padBlock;

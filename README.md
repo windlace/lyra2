@@ -10,7 +10,7 @@ composer require cast/lyra2
 #### Usage:
 ```php
 <?php
-use Cast\Crypto\unit64\Uint64 as uint64;
+use Cast\Crypto\uint64\Uint64 as uint64;
 use function Cast\Crypto\Lyra2\lyra2;
 use function Cast\Crypto\Lyra2\padBlock;
 

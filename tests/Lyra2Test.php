@@ -3,7 +3,7 @@
 namespace Cast\Crypto\Lyra2\Tests;
 
 use Cast\Crypto\Lyra2\Lyra2;
-use Cast\Crypto\unit64\Uint64 as uint64;
+use Cast\Crypto\uint64\Uint64 as uint64;
 use PHPUnit\Framework\TestCase;
 use function Cast\Crypto\Lyra2\lyra2;
 use function Cast\Crypto\Lyra2\padBlock;

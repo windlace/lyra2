@@ -4,17 +4,17 @@
 
 namespace Cast\Crypto\Lyra2;
 
-use Cast\Crypto\unit64\Uint64 as uint64;
+use Cast\Crypto\uint64\Uint64 as uint64;
 use function Cast\Crypto\ECDSA\Conv\convBase;
-use function Cast\Crypto\unit64\_and;
-use function Cast\Crypto\unit64\_xor;
-use function Cast\Crypto\unit64\add;
-use function Cast\Crypto\unit64\mul;
-use function Cast\Crypto\unit64\neg;
-use function Cast\Crypto\unit64\mod2;
-use function Cast\Crypto\unit64\ROTR;
-use function Cast\Crypto\unit64\sub;
-use function Cast\Crypto\unit64\uint64;
+use function Cast\Crypto\uint64\_and;
+use function Cast\Crypto\uint64\_xor;
+use function Cast\Crypto\uint64\add;
+use function Cast\Crypto\uint64\mul;
+use function Cast\Crypto\uint64\neg;
+use function Cast\Crypto\uint64\mod2;
+use function Cast\Crypto\uint64\ROTR;
+use function Cast\Crypto\uint64\sub;
+use function Cast\Crypto\uint64\uint64;
 use const Cast\BaseConv\BASE_10;
 use const Cast\Crypto\ECDSA\Conv\BASE_16;
 
